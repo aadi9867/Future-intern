@@ -1,0 +1,15 @@
+{
+  "short_name": "FutureIntern",
+  "name": "Future Intern Portal",
+  "icons": [
+    {
+      "src": "Logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff"
+} 
