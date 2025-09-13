@@ -1,0 +1,332 @@
+{
+  "Python Development": [
+    {
+      "task": "Create a password generator",
+      "description": "Build a Python script that generates strong, random passwords using letters, digits, and special characters, with customizable length."
+    },
+    {
+      "task": "Build a CLI calculator",
+      "description": "Develop a command-line calculator that supports addition, subtraction, multiplication, and division operations based on user input."
+    },
+    {
+      "task": "JSON-based todo list",
+      "description": "Create a Python application to manage a todo list by saving tasks to and loading them from a JSON file, allowing add/delete functionality."
+    },
+    {
+      "task": "Weather app using API",
+      "description": "Fetch and display real-time weather data using the OpenWeatherMap API. The app should allow users to search by city."
+    },
+    {
+      "task": "Web scraper for news",
+      "description": "Use BeautifulSoup and requests to scrape and display headlines or articles from a news website."
+    }
+  ],
+  "Web Development": [
+    {
+      "task": "Responsive portfolio site",
+      "description": "Design and build a personal portfolio website that looks good on all screen sizes using HTML and CSS."
+    },
+    {
+      "task": "Form validation in JS",
+      "description": "Create an HTML form and use JavaScript to validate required fields, email formats, and password length."
+    },
+    {
+      "task": "To-do list with localStorage",
+      "description": "Build a task manager in HTML, CSS, and JavaScript that saves tasks using the browser's localStorage."
+    },
+    {
+      "task": "Landing page clone",
+      "description": "Recreate the UI of a popular website's landing page using Tailwind CSS or Bootstrap to practice responsive layout skills."
+    },
+    {
+      "task": "Mini blog with React/Firebase",
+      "description": "Develop a basic blog where users can post, edit, and delete content using React on frontend and Firebase on backend."
+    }
+  ],
+  "Mobile App Development": [
+    {
+      "task": "Counter app",
+      "description": "Build a mobile app that increments or decrements a number on button click using Flutter or React Native."
+    },
+    {
+      "task": "Login screen UI",
+      "description": "Design a clean login screen with proper input fields and UI animations for mobile devices."
+    },
+    {
+      "task": "To-do app with storage",
+      "description": "Create a simple to-do list app that stores tasks locally using async storage or SQLite."
+    },
+    {
+      "task": "Weather app with API",
+      "description": "Develop a mobile app to fetch and show weather data for a city using an open API."
+    },
+    {
+      "task": "Note-taking CRUD app",
+      "description": "Build an app where users can create, update, and delete text notes, with data saved locally."
+    }
+  ],
+  "Data Science": [
+    {
+      "task": "Analyze Titanic dataset",
+      "description": "Use pandas for exploration and summary."
+    },
+    {
+      "task": "COVID-19 data visualization",
+      "description": "Plot line graphs using matplotlib."
+    },
+    {
+      "task": "Correlation heatmap",
+      "description": "Show variable relationships in heatmap."
+    },
+    {
+      "task": "Matrix ops with NumPy",
+      "description": "Perform matrix math operations."
+    },
+    {
+      "task": "Data cleaning with pandas",
+      "description": "Handle missing and incorrect data."
+    }
+  ],
+  "Machine Learning": [
+    {
+      "task": "Linear regression model",
+      "description": "Predict numeric values using sklearn."
+    },
+    {
+      "task": "Spam classifier",
+      "description": "Classify emails with Naive Bayes."
+    },
+    {
+      "task": "Decision tree on iris",
+      "description": "Train a decision tree on iris dataset."
+    },
+    {
+      "task": "Handwritten digit recognition",
+      "description": "Use k-NN for MNIST digit prediction."
+    },
+    {
+      "task": "Evaluate model accuracy",
+      "description": "Calculate metrics like accuracy and confusion matrix."
+    }
+  ],
+  "UI/UX Design": [
+    {
+      "task": "Login UI design",
+      "description": "Design a modern login/register UI."
+    },
+    {
+      "task": "Food app wireframe",
+      "description": "Create a wireframe for a food delivery app."
+    },
+    {
+      "task": "Redesign homepage",
+      "description": "Redesign a well-known site's homepage."
+    },
+    {
+      "task": "Portfolio layout",
+      "description": "Create a responsive portfolio layout."
+    },
+    {
+      "task": "UX audit of website",
+      "description": "Review a site and suggest UX improvements."
+    }
+  ],
+  "Digital Marketing": [
+    {
+      "task": "Marketing plan",
+      "description": "Plan a campaign for a new product."
+    },
+    {
+      "task": "SEO competitor analysis",
+      "description": "Use free tools to research competitors."
+    },
+    {
+      "task": "Mock AdWords campaign",
+      "description": "Plan and outline an ad campaign."
+    },
+    {
+      "task": "Email campaign sample",
+      "description": "Design a marketing email."
+    },
+    {
+      "task": "Instagram content calendar",
+      "description": "Prepare a week's posting calendar."
+    }
+  ],
+  "Content Writing": [
+    {
+      "task": "Blog on internships",
+      "description": "Write about internship benefits."
+    },
+    {
+      "task": "Product description",
+      "description": "Write for an e-commerce product."
+    },
+    {
+      "task": "Startup newsletter",
+      "description": "Draft a newsletter for users."
+    },
+    {
+      "task": "Social media captions",
+      "description": "Write captions for posts."
+    },
+    {
+      "task": "Article on Web 3.0",
+      "description": "Research and write a long-form blog."
+    }
+  ],
+  "Graphic Design": [
+    {
+      "task": "Startup logo",
+      "description": "Design a basic logo."
+    },
+    {
+      "task": "Social media post",
+      "description": "Create an Instagram post."
+    },
+    {
+      "task": "Business card",
+      "description": "Design a simple business card."
+    },
+    {
+      "task": "Event poster",
+      "description": "Design a poster for an event."
+    },
+    {
+      "task": "Brochure design",
+      "description": "Design a 2-3 fold brochure."
+    }
+  ],
+  "Cybersecurity": [
+    {
+      "task": "Password policy guide",
+      "description": "Explain 5 best password practices."
+    },
+    {
+      "task": "XSS demo & fix",
+      "description": "Show and prevent XSS in forms."
+    },
+    {
+      "task": "Form input validation",
+      "description": "Secure web inputs."
+    },
+    {
+      "task": "UFW firewall setup",
+      "description": "Configure a basic Linux firewall."
+    },
+    {
+      "task": "Vulnerability scan",
+      "description": "Scan using OWASP ZAP or Nikto."
+    }
+  ],
+  "Cloud Computing": [
+    {
+      "task": "Create cloud account",
+      "description": "Sign up and explore AWS/GCP/Azure."
+    },
+    {
+      "task": "Deploy static site",
+      "description": "Use S3, Netlify or Vercel."
+    },
+    {
+      "task": "Virtual machine setup",
+      "description": "Spin up a cloud VM and install software."
+    },
+    {
+      "task": "CI/CD pipeline",
+      "description": "Auto-deploy using GitHub Actions."
+    },
+    {
+      "task": "Deploy Node app",
+      "description": "Host a Node.js app on cloud."
+    }
+  ],
+  "DevOps": [
+    {
+      "task": "GitHub repo setup",
+      "description": "Initialize repo and branch rules."
+    },
+    {
+      "task": "Dockerfile for Node app",
+      "description": "Create a working Dockerfile."
+    },
+    {
+      "task": "Run Docker container",
+      "description": "Build and run local Docker image."
+    },
+    {
+      "task": "CI with GitHub Actions",
+      "description": "Trigger deploys from push events."
+    },
+    {
+      "task": "Docker Compose setup",
+      "description": "Run Node + DB stack with compose."
+    }
+  ],
+  "Blockchain Development": [
+    {
+      "task": "Solidity Hello World",
+      "description": "Write a basic smart contract."
+    },
+    {
+      "task": "Deploy with Remix",
+      "description": "Use Remix to test on testnet."
+    },
+    {
+      "task": "Connect contract to React",
+      "description": "Use ethers.js/web3.js."
+    },
+    {
+      "task": "Create ERC-20 token",
+      "description": "Define your own token."
+    },
+    {
+      "task": "Simple DApp",
+      "description": "Build a blockchain-based voting/like system."
+    }
+  ],
+  "Game Development": [
+    {
+      "task": "Pong game",
+      "description": "Create a 2-player pong clone."
+    },
+    {
+      "task": "Character controller",
+      "description": "Move, jump, collide."
+    },
+    {
+      "task": "Add score & game over",
+      "description": "Track and display score."
+    },
+    {
+      "task": "Menu and pause",
+      "description": "Main menu + pause/resume logic."
+    },
+    {
+      "task": "Export game",
+      "description": "Export and host game."
+    }
+  ],
+  "IoT Development": [
+    {
+      "task": "LED blink",
+      "description": "Use Arduino or ESP to blink an LED."
+    },
+    {
+      "task": "Read sensor data",
+      "description": "Use DHT11 for temperature/humidity."
+    },
+    {
+      "task": "Dashboard for data",
+      "description": "Send data to web dashboard."
+    },
+    {
+      "task": "Buzzer alert",
+      "description": "Trigger buzzer on threshold."
+    },
+    {
+      "task": "Control device remotely",
+      "description": "Use Blynk/MQTT for remote control."
+    }
+  ]
+}
