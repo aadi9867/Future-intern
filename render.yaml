@@ -1,0 +1,16 @@
+# Exported from Render on 2025-09-14T04:53:11Z
+services:
+- type: web
+  name: Future-intern-4
+  runtime: node
+  repo: https://github.com/aadi9867/Future-intern
+  plan: free
+  envVars:
+  - key: MONGODB_URI
+    sync: false
+  region: singapore
+  buildCommand: npm install && cd client && npm install && npm run build && cd ../server
+    && npm install
+  startCommand: cd server && npm start
+  autoDeployTrigger: commit
+version: "1"
