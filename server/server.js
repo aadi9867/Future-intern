@@ -41,6 +41,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/future-in
 .then(() => console.log('✅ Connected to MongoDB'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
 
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/internships', internshipRoutes);
@@ -55,6 +56,29 @@ app.get('/api/health', (req, res) => {
     timestamp: new Date().toISOString()
   });
 });
+
+// Serve React frontend in production
+const path = require('path');
+if (process.env.NODE_ENV === 'production') {
+  const buildPath = path.join(__dirname, '..', 'client', 'build');
+  app.use(express.static(buildPath));
+  // Catch-all: send index.html for non-API routes
+  app.get('*', (req, res) => {
+    if (!req.originalUrl.startsWith('/api')) {
+      res.sendFile(path.join(buildPath, 'index.html'));
+    } else {
+      res.status(404).json({ success: false, message: 'Route not found' });
+    }
+  });
+} else {
+  // 404 handler for non-production
+  app.use('*', (req, res) => {
+    res.status(404).json({ 
+      success: false, 
+      message: 'Route not found' 
+    });
+  });
+}
 
 // Error handling middleware
 app.use((err, req, res, next) => {
